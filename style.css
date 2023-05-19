@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #bcd2e8;
+    font-family: geneva;
+}
+  
+h1 {
+    text-align: center;
+    font-family: arial rounded MT bold;
+}
+  
+input {
+    width: 60%;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+}
+  
+button {
+    padding: 7px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+  
+button:hover {
+    border: 2px solid gray;
+    color: black;
+    background-color: lightgray;
+}
+  
+img {
+    width: 15%;
+    height: 15%;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+  
+.space {
+    padding: 15px;
+}
+  

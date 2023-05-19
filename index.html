@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <!--- Leaflet Stylesheet ---->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+    
+    <!--- Map Dimensions ---->
+    <style>
+        #map { 
+            height: 600px; 
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+
+    <h1>Weather</h1>
+
+    <!-- Here is where the user can input a city name or zip code -->
+    <div class="center">
+        <input type="text" id="userInput" placeholder="Enter a city name or zip code">
+        <button id="btn">GO!</button>
+    </div>
+
+    <div class="space"></div>
+
+    <!-- Here is where the results/map will be displayed -->
+    <div class="center" id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <div class="space"></div>
+
+    <script src="script.js"></script>
+
+    </div>
+</body>
+
+</html>
